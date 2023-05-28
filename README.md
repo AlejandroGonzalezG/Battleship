@@ -1,6 +1,6 @@
 # Battleship
 
-para correr el proyecto, se debe ejecutar
+para correr el proyecto, se debe ejecutar:
 
 `npm install`
 
