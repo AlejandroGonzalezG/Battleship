@@ -26,19 +26,19 @@ const BoardJuego = (props) => {
             </div>
             <div className="container" style={estiloContainer}>
                 <div className="row">
-                    <div className="col border"></div>
-                    <div className="col border">1</div>
-                    <div className="col border">2</div>
-                    <div className="col border">3</div>
-                    <div className="col border">4</div>
-                    <div className="col border">5</div>
-                    <div className="col border">6</div>
-                    <div className="col border">7</div>
-                    <div className="col border">8</div>
-                    <div className="col border">9</div>
+                    <div className="col border" id="indicador"></div>
+                    <div className="col border" id="indicador">1</div>
+                    <div className="col border" id="indicador">2</div>
+                    <div className="col border" id="indicador">3</div>
+                    <div className="col border" id="indicador">4</div>
+                    <div className="col border" id="indicador">5</div>
+                    <div className="col border" id="indicador">6</div>
+                    <div className="col border" id="indicador">7</div>
+                    <div className="col border" id="indicador">8</div>
+                    <div className="col border" id="indicador">9</div>
                 </div>
                 <div className="row">
-                    <div className="col border">1</div>
+                    <div className="col border" id="indicador">1</div>
                     <div className="col border" id={11}>
                         11
                     </div>
@@ -68,7 +68,7 @@ const BoardJuego = (props) => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col border">2</div>
+                    <div className="col border" id="indicador">2</div>
                     <div className="col border" id={21}>
                         21
                     </div>
@@ -98,7 +98,7 @@ const BoardJuego = (props) => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col border">3</div>
+                    <div className="col border" id="indicador">3</div>
                     <div className="col border" id={31}>
                         31
                     </div>
@@ -128,7 +128,7 @@ const BoardJuego = (props) => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col border">4</div>
+                    <div className="col border" id="indicador">4</div>
                     <div className="col border" id={41}>
                         41
                     </div>
@@ -158,7 +158,7 @@ const BoardJuego = (props) => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col border">5</div>
+                    <div className="col border" id="indicador">5</div>
                     <div className="col border" id={51}>
                         51
                     </div>
@@ -188,7 +188,7 @@ const BoardJuego = (props) => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col border">6</div>
+                    <div className="col border" id="indicador">6</div>
                     <div className="col border" id={61}>
                         61
                     </div>
@@ -218,7 +218,7 @@ const BoardJuego = (props) => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col border">7</div>
+                    <div className="col border" id="indicador">7</div>
                     <div className="col border" id={71}>
                         71
                     </div>
@@ -248,7 +248,7 @@ const BoardJuego = (props) => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col border">8</div>
+                    <div className="col border" id="indicador">8</div>
                     <div className="col border" id={81}>
                         81
                     </div>
@@ -278,7 +278,7 @@ const BoardJuego = (props) => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col border">9</div>
+                    <div className="col border" id="indicador">9</div>
                     <div className="col border" id={91}>
                         91
                     </div>
